@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Googul</title>
+
+  <!-- Meta-Info -->
+  <meta name=”description” content="You're wrong here. Don't click on me!">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@tomdiggelmann" />
+  <meta property="og:title" content="Tom Diggelmann" />
+  <meta property="og:description" content="You're wrong here. Don't click on me!" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="center">
+      <h1 class="title">I think you're wrong</h1>
+      <h1 class="subtitle">Let me help you out!</h1>
+      <div id="buttonContainer">
+        <script>
+        let a = document.createElement('a')
+        a.setAttribute('class', 'button')
+        a.setAttribute('href', location.href)
+        a.innerHTML = 'Redirect to where you probably wanted to go'
+        document.getElementById('buttonContainer').appendChild(a)
+        </script>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
