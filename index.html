@@ -27,12 +27,13 @@
     <div class="center">
       <h1 class="title">I think you're wrong</h1>
       <h1 class="subtitle">Let me help you out!</h1>
+      <h1 class="subtitle">I will kindly redirect you to the page you probably wanted to go. :)</h1>
       <div id="buttonContainer">
         <script>
         let a = document.createElement('a')
         a.setAttribute('class', 'button')
-        a.setAttribute('href', location.href)
-        a.innerHTML = 'Redirect to where you probably wanted to go'
+        a.setAttribute('href', 'https://google.ch')
+        a.innerHTML = 'Redirect now'
         document.getElementById('buttonContainer').appendChild(a)
         </script>
       </div>
